@@ -6,9 +6,11 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 16:43:56 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 16:46:11 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 22:36:37 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {

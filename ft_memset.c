@@ -6,11 +6,11 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 17:39:02 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 19:28:27 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 22:36:46 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 void	*ft_memset(void *str, int c, size_t n)
 {

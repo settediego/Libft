@@ -6,9 +6,11 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 17:16:59 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 17:18:13 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 22:36:42 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

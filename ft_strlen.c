@@ -6,11 +6,13 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 17:19:09 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 17:32:54 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 22:40:26 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include "libft.h"
+
+int	ft_strlen(const char *str)
 {
 	unsigned int	i;
 

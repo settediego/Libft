@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 22:32:51 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 22:41:22 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,13 +34,10 @@ int		ft_isdigit(int c);
 int		ft_isprint(int c);
 
 // String Functions
-int		ft_strlen(char *str);
+int		ft_strlen(const char *str);
 
 // Memory Functions
 void	ft_bzero(void *str, size_t n);
 void	*ft_memset(void *str, int c, size_t n);
-
-
-
 
 #endif
