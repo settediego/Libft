@@ -6,25 +6,24 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 22:41:22 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 23:12:43 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
-#define LIBFT_H
+# define LIBFT_H
 
 // Standard Libraries
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stddef.h>
-#include <math.h>
-#include <ctype.h>
-#include <time.h>
-#include <errno.h>
-#include <limits.h>
-#include <float.h>
-#include <unistd.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# include <stddef.h>
+# include <math.h>
+# include <ctype.h>
+# include <time.h>
+# include <errno.h>
+# include <limits.h>
+# include <unistd.h>
 
 // Character Functions
 int		ft_isalpha(int c);

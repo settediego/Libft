@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 17:39:02 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 22:36:46 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/13 23:24:50 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,14 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
+
+// int	main(void)
+// {
+// 	char	str[12];
+
+// 	strcpy(str, "hello world");
+// 	printf("antes: %s\n", str);
+// 	ft_memset(str, '7', 3);
+// 	printf("depois: %s\n", str);
+// 	return (0);
+// }
