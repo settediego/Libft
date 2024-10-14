@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/13 23:12:43 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/14 17:11:20 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,6 @@ int		ft_strlen(const char *str);
 // Memory Functions
 void	ft_bzero(void *str, size_t n);
 void	*ft_memset(void *str, int c, size_t n);
+void	*ft_memcpy(void *dest_str, const void *src_str, size_t n);
 
 #endif
