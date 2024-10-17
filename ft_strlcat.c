@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 18:21:46 by diego             #+#    #+#             */
-/*   Updated: 2024/10/17 12:01:08 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/17 12:20:29 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,29 +42,29 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 //     size_t dstsize;
 //     size_t result;
 
-//     // Teste 1: dstsize menor que o comprimento de dst
-//     dstsize = 3;  // Menor que o tamanho de "Hello"
-//     result = ft_strlcat(dst1, src, dstsize);
-//     printf("dst: "%s", src:"%s", dstsize = %zu\n", dst1, src, dstsize);
-//     printf("Resultado (retorno): %zu\n", result);
-//     printf("Esperado (strlcat): %zu\n", strlcat(dst1, src, dstsize));
-//     printf("String resultante: \"%s\"\n\n", dst1);
+// // Teste 1: dstsize menor que o comprimento de dst
+// 	dstsize = 3;  // Menor que o tamanho de "Hello"
+// 	result = ft_strlcat(dst1, src, dstsize);
+// 	printf("dst: \"%s\", src:\"%s\", dstsize = %zu\n", dst1, src, dstsize);
+// 	printf("Resultado (retorno): %zu\n", result);
+// 	// printf("Esperado (strlcat): %zu\n", strlcat(dst1, src, dstsize));
+// 	printf("String resultante: \"%s\"\n\n", dst1);
 
-//     // Teste 2: dstsize menor que a soma da concatenação
-//     dstsize = 8;  // Capacidade insuficiente para a concatenação completa
-//     result = ft_strlcat(dst2, src, dstsize);
-//     printf("dst:"%s", src:"%s", dstsize:%zu\n", dst2, src, dstsize);
-//     printf("Resultado (retorno): %zu\n", result);
-//     printf("Esperado (strlcat): %ld\n", strlcat(dst2, src, dstsize));
-//     printf("String resultante: \"%s\"\n\n", dst2);
+// // Teste 2: dstsize menor que a soma da concatenação
+// 	dstsize = 8;  // Capacidade insuficiente para a concatenação completa
+// 	result = ft_strlcat(dst2, src, dstsize);
+// 	printf("dst:\"%s\", src:\"%s\", dstsize:%zu\n", dst2, src, dstsize);
+// 	printf("Resultado (retorno): %zu\n", result);
+// 	// printf("Esperado (strlcat): %ld\n", strlcat(dst2, src, dstsize));
+// 	printf("String resultante: \"%s\"\n\n", dst2);
 
-//     // Teste 3: dstsize suficiente para a concatenação completa
-//     dstsize = 15;  // Capacidade suficiente para "Hello" + "World"
-//     result = ft_strlcat(dst3, src, dstsize);
-//     printf("dst:"%s", src:"%s", dstsize: %zu\n", dst3, src, dstsize);
-//     printf("Resultado (retorno): %zu\n", result);
-//     printf("Esperado (strlcat): %zu\n", strlcat(dst3, src, dstsize));
-//     printf("String resultante: \"%s\"\n", dst3);
+// // Teste 3: dstsize suficiente para a concatenação completa
+// 	dstsize = 15;  // Capacidade suficiente para "Hello" + "World"
+// 	result = ft_strlcat(dst3, src, dstsize);
+// 	printf("dst = \"%s\", src = \"%s\", dstsize = %zu\n", dst3, src, dstsize);
+// 	printf("Resultado (retorno): %zu\n", result);
+// 	// printf("Esperado (strlcat): %zu\n", strlcat(dst3, src, dstsize));
+// 	printf("String resultante: \"%s\"\n", dst3);
 
-//     return (0);
+// 	return (0);
 // }
