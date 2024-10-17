@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/14 20:41:18 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/17 13:15:03 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,13 @@ int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isdigit(int c);
 int		ft_isprint(int c);
+int		ft_tolower(int c);
+int		ft_toupper(int c);
 
 // String Functions
 int		ft_strlen(const char *str);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 
 // Memory Functions
 void	ft_bzero(void *str, size_t n);
