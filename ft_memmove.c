@@ -6,12 +6,11 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 19:20:32 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/14 20:44:23 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/14 22:25:30 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 void	*ft_memmove(void *dest_str, const void *src_str, size_t n)
 {
