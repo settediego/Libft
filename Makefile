@@ -6,7 +6,7 @@
 #    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/21 20:54:28 by diegomor         ###   ########.fr        #
+#    Updated: 2024/10/23 17:01:32 by diegomor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,8 +33,9 @@ SRC = \
 	ft_strlen.c \
 	ft_strncmp.c \
 	ft_tolower.c \
-	ft_toupper.c
-
+	ft_toupper.c \
+	ft_strchr \
+	
 OBJ = $(SRC:%.c=%.o)
 
 all: $(NAME) 
