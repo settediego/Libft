@@ -6,7 +6,7 @@
 #    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/23 19:26:30 by diegomor         ###   ########.fr        #
+#    Updated: 2024/10/23 23:09:33 by diegomor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ SRC = \
 	ft_isprint.c \
 	ft_tolower.c \
 	ft_toupper.c \
+	ft_memchr.c \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_memset.c \
