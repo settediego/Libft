@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 17:01:54 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/23 18:50:05 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/23 19:36:05 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,14 +22,15 @@ char	*ft_strchr(const char *s, int c)
 	}
 	if (!c)
 		return ((char *)s);
-	return ('\0');
+	return (0);
 }
 
 // int main(void)
 // {
 // 	char	str[15] = "Hello World!";
-// 	int		c = '\0';
-// 	printf("%p \n", (void *)&str[12]);
-// 	printf("%p", ft_strchr(str, c));
+// 	int		c = 'a';
+// 	printf("%p\n", (void *)&str[12]);
+// 	printf("%p\n", ft_strchr(str, c));
+// 	printf("%p", strchr(str, c));
 // 	return(0);
 // }
