@@ -6,7 +6,7 @@
 #    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/23 17:01:32 by diegomor         ###   ########.fr        #
+#    Updated: 2024/10/23 19:26:30 by diegomor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,6 +25,8 @@ SRC = \
 	ft_isascii.c \
 	ft_isdigit.c \
 	ft_isprint.c \
+	ft_tolower.c \
+	ft_toupper.c \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_memset.c \
@@ -32,10 +34,9 @@ SRC = \
 	ft_strlcpy.c \
 	ft_strlen.c \
 	ft_strncmp.c \
-	ft_tolower.c \
-	ft_toupper.c \
-	ft_strchr \
-	
+	ft_strchr.c \
+	ft_strrchr.c \
+		
 OBJ = $(SRC:%.c=%.o)
 
 all: $(NAME) 

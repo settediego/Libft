@@ -1,35 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/23 17:01:54 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/23 18:50:05 by diegomor         ###   ########.fr       */
+/*   Created: 2024/10/23 18:13:51 by diegomor          #+#    #+#             */
+/*   Updated: 2024/10/23 19:21:30 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <string.h>
+#include <stdio.h>
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
-	while (*s)
+	unsigned int	len;
+
+	len = strlen(s);
+	if (c == '\0')
+		return ((char *)&s[len]);
+	while (len > 0)
 	{
-		if (*s == (char)c)
-			return ((char *)s);
-		s++;
+		if (s[len - 1] == c)
+			return ((char *)&s[len - 1]);
+		len--;
 	}
-	if (!c)
-		return ((char *)s);
 	return ('\0');
 }
 
 // int main(void)
 // {
-// 	char	str[15] = "Hello World!";
-// 	int		c = '\0';
-// 	printf("%p \n", (void *)&str[12]);
-// 	printf("%p", ft_strchr(str, c));
+// 	char str[15] = "Hello World!";
+// 	int c = 'o';
+
+// 	printf("%p\n", &str[7]);
+// 	printf("ft_strrcht: %p \n", ft_strrchr(str, c));
+// 	printf("strrchr:    %p \n", strrchr(str, c));
+
 // 	return(0);
 // }
