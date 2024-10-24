@@ -6,7 +6,7 @@
 #    By: diego <diego@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/24 22:53:53 by diego            ###   ########.fr        #
+#    Updated: 2024/10/25 00:15:33 by diego            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ FLAGS = -Wall -Wextra -Werror
 AR = ar -rsc
 
 SRC = \
+	ft_atoi.c \
 	ft_bzero.c \
 	ft_isalnum.c \
 	ft_isalpha.c \
