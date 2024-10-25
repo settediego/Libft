@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: diego <diego@student.42.fr>                +#+  +:+       +#+        */
+/*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 23:06:15 by diego             #+#    #+#             */
-/*   Updated: 2024/10/25 00:14:41 by diego            ###   ########.fr       */
+/*   Updated: 2024/10/25 10:59:06 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	ft_atoi(const char *str)
 {
-	int	res;
-	int	sign;
+	int				res;
+	int				sign;
 	unsigned int	i;
 
 	res = 0;
@@ -29,7 +29,7 @@ int	ft_atoi(const char *str)
 			sign = -1;
 		i++;
 	}
-	while (isdigit(str[i]))
+	while (ft_isdigit(str[i]))
 	{
 		res = res * 10 + (str[i] - '0');
 		i++;
