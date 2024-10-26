@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
+#    By: diego <diego@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/25 11:09:18 by diegomor         ###   ########.fr        #
+#    Updated: 2024/10/27 01:31:18 by diego            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,6 +33,7 @@ SRC = \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_memset.c \
+	ft_strdup.c \
 	ft_strlcat.c \
 	ft_strlcpy.c \
 	ft_strlen.c \
