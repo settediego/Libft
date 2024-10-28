@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/28 17:08:13 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/10/28 19:02:08 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ int		ft_isdigit(int c);
 int		ft_isprint(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+void	ft_putnbr_fd(int n, int fd);
+void	ft_putchar_fd(char c, int fd);
 
 // String Functions
 int		ft_atoi(const char *str);
@@ -44,6 +46,7 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 
 // Memory Functions
 void	ft_bzero(void *str, size_t n);
+void	*ft_calloc(size_t nmemb, size_t size);
 void	*ft_memset(void *str, int c, size_t n);
 void	*ft_memcpy(void *dest_str, const void *src_str, size_t n);
 void	*ft_memmove(void *dest_str, const void *src_str, size_t n);
