@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: diego <diego@student.42.fr>                +#+  +:+       +#+        */
+/*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/27 01:33:28 by diego            ###   ########.fr       */
+/*   Updated: 2024/10/28 17:08:13 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,13 @@
 # define LIBFT_H
 
 // Standard Libraries
-# include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
-# include <stddef.h>
-# include <math.h>
 # include <ctype.h>
-# include <time.h>
-# include <errno.h>
-# include <limits.h>
 # include <unistd.h>
+# include <stdio.h>
+# include <limits.h>
+# include <string.h>
+# include <strings.h>
 
 // Character Functions
 int		ft_isalpha(int c);
@@ -35,14 +32,15 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 
 // String Functions
+int		ft_atoi(const char *str);
 char	*ft_strchr(const char *s, int c);
-char	*ft_strdup(const char *str)
+char	*ft_strdup(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 int		ft_strlen(const char *str);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strrchr(const char *s, int c);
-int		ft_atoi(const char *str);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 
 // Memory Functions
 void	ft_bzero(void *str, size_t n);
