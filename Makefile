@@ -6,7 +6,7 @@
 #    By: diego <diego@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/28 23:48:34 by diego            ###   ########.fr        #
+#    Updated: 2024/10/29 00:15:09 by diego            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,8 +32,10 @@ SRC = \
 	ft_memcpy.c \
 	ft_memmove.c \
 	ft_memset.c \
+	ft_putendl_fd.c \
 	ft_putchar_fd.c \
 	ft_putnbr_fd.c \
+	ft_putstr_fd.c \
 	ft_strdup.c \
 	ft_strlcat.c \
 	ft_strlcpy.c \
