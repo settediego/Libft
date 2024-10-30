@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: diego <diego@student.42.fr>                +#+  +:+       +#+         #
+#    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/29 00:15:09 by diego            ###   ########.fr        #
+#    Updated: 2024/10/30 16:57:56 by diegomor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,6 +44,7 @@ SRC = \
 	ft_strchr.c \
 	ft_strrchr.c \
 	ft_strnstr.c \
+	ft_substr.c \
 	ft_tolower.c \
 	ft_toupper.c \
 		
