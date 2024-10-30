@@ -1,39 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/28 18:40:55 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/30 18:05:30 by diegomor         ###   ########.fr       */
+/*   Created: 2024/10/30 17:48:29 by diegomor          #+#    #+#             */
+/*   Updated: 2024/10/30 18:22:32 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n, int fd)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	char	c;
+	char			*newstr;
+	unsigned int	i;
 
-	if (n == -2147483648)
-		write (fd, "-2147483648", 11);
-	else
+	i = 0;
+	if (!s1 || !s2)
+		return (NULL);
+	newstr = (char *)malloc((ft_strlen(s1) + ft_strlen(s2) + 1) * sizeof(char));
+	if (!newstr)
+		return (NULL);
+	while (s1[i] != '\0')
 	{
-		if (n < 0)
-		{
-			ft_putchar_fd('-', fd);
-			n = -n;
-		}
-		if (n > 9)
-		{
-			ft_putnbr_fd(n / 10, fd);
-			ft_putnbr_fd(n % 10, fd);
-		}
-		else
-		{
-			c = n + '0';
-			ft_putchar_fd(c, fd);
-		}
+		newstr[i] = s1[i];
+		i++;
 	}
+	i = 0;
+	while (s2[i] != '\0')
+	{
+		newstr[ft_strlen(s1) + i] = s2[i];
+		i++;
+	}
+	newstr[ft_strlen(s1) + i] = '\0';
+	return (newstr);
 }
