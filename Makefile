@@ -6,7 +6,7 @@
 #    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/11/04 13:29:52 by diegomor         ###   ########.fr        #
+#    Updated: 2024/11/04 18:45:22 by diegomor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,10 +39,12 @@ SRC = \
 	ft_putstr_fd.c \
 	ft_strchr.c \
 	ft_strdup.c \
+	ft_striteri.c \
 	ft_strjoin.c \
 	ft_strlcat.c \
 	ft_strlcpy.c \
 	ft_strlen.c \
+	ft_strmapi.c \
 	ft_strncmp.c \
 	ft_strnstr.c \
 	ft_strrchr.c \
