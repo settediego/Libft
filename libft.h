@@ -6,7 +6,7 @@
 /*   By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 22:32:19 by diegomor          #+#    #+#             */
-/*   Updated: 2024/10/30 18:58:27 by diegomor         ###   ########.fr       */
+/*   Updated: 2024/11/04 12:50:02 by diegomor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ void	ft_putstr_fd(char *s, int fd);
 
 // String Functions
 int		ft_atoi(const char *str);
+char	*ft_itoa(int n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *str);
 char	*ft_strjoin(char const *s1, char const *s2);

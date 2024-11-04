@@ -6,7 +6,7 @@
 #    By: diegomor <diegomor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/21 18:08:54 by diegomor          #+#    #+#              #
-#    Updated: 2024/10/30 18:36:54 by diegomor         ###   ########.fr        #
+#    Updated: 2024/11/04 13:29:52 by diegomor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ SRC = \
 	ft_isascii.c \
 	ft_isdigit.c \
 	ft_isprint.c \
+	ft_itoa.c \
 	ft_memchr.c \
 	ft_memcmp.c \
 	ft_memcpy.c \
